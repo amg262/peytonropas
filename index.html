@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Peyton</title>
+<meta name="description" content="A little corner of the internet for Peyton." />
+<meta name="robots" content="noindex" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>" />
+</head>
+<body>
+
+<div class="petals" aria-hidden="true"></div>
+
+<main>
+
+  <section class="hero">
+    <p class="eyebrow">a small page for</p>
+    <h1 class="name">
+      <span>P</span><span>e</span><span>y</span><span>t</span><span>o</span><span>n</span>
+    </h1>
+    <div class="rule" aria-hidden="true"></div>
+    <p class="tagline">who is, objectively and inconveniently, very pretty</p>
+
+    <!-- Optional: drop a photo she's okay with at assets/peyton.jpg and
+         delete the hidden attribute below. -->
+    <figure class="portrait" hidden>
+      <img src="assets/peyton.jpg" alt="Peyton" />
+    </figure>
+
+    <div class="scroll-hint" aria-hidden="true">
+      <span></span>
+    </div>
+  </section>
+
+  <section class="compliments" aria-label="Compliments">
+    <p class="compliment" id="compliment">Some people are pretty. You're the kind that makes a room quieter.</p>
+    <button class="again" id="again" type="button">one more</button>
+  </section>
+
+  <section class="cards" aria-label="A few true things">
+    <article class="card">
+      <span class="glyph" aria-hidden="true">✦</span>
+      <h2>That smile</h2>
+      <p>Genuinely unfair. It shows up and the whole day reorganizes itself around it.</p>
+    </article>
+    <article class="card">
+      <span class="glyph" aria-hidden="true">✧</span>
+      <h2>Those eyes</h2>
+      <p>The kind you accidentally look at a second too long, then have to remember what you were saying.</p>
+    </article>
+    <article class="card">
+      <span class="glyph" aria-hidden="true">✶</span>
+      <h2>Everything else</h2>
+      <p>Pretty is the easy part. It's the warmth underneath that makes it stick.</p>
+    </article>
+  </section>
+
+  <footer>
+    <p class="signoff">made just because</p>
+    <p class="heart" aria-hidden="true">♡</p>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
