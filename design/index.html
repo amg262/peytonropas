@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Peyton Ropas — Designer</title>
+<meta name="description" content="Brand identity and event collateral for weddings and private parties — designed by a bartender who has worked the event. Lake Country, Wisconsin." />
+
+<meta property="og:title" content="Peyton Ropas — Designer" />
+<meta property="og:description" content="Custom bar menus, signage and identity for weddings and private parties. Lake Country, Wisconsin." />
+<meta property="og:type" content="website" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="/design/styles.css" />
+<link rel="icon" href="/assets/favicon.svg" />
+
+<!-- Gate the reveal animation on JS being alive. Without the `js` class the
+     .reveal rule never hides anything, so no-JS degrades to visible content
+     rather than a blank page. The timer covers the other failure mode —
+     script.js blocked or erroring — by dropping the class if nothing claims
+     it. script.js clears this as its first act. -->
+<script>
+  document.documentElement.className += " js";
+  window.__revealGuard = setTimeout(function () {
+    document.documentElement.className =
+      document.documentElement.className.replace(/\bjs\b/, "");
+  }, 2500);
+</script>
+</head>
+<body>
+
+<a class="skip" href="#work">Skip to work</a>
+
+<header class="topbar">
+  <a class="topbar__name" href="#top">Peyton&nbsp;Ropas</a>
+  <nav class="topbar__nav">
+    <a href="#work">Work</a>
+    <a href="#approach">Approach</a>
+    <a href="#services">Services</a>
+    <a href="#contact" class="topbar__cta">Get in touch</a>
+  </nav>
+</header>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <p class="kicker reveal">Graphic Design · Lake Country, Wisconsin</p>
+    <h1 class="hero__title reveal">
+      I design the <em>whole</em> event,<br />not just the drink.
+    </h1>
+    <p class="hero__lede reveal">
+      Brand identity, custom bar menus and event signage for weddings and private
+      parties — made by someone who has actually worked your bar.
+    </p>
+    <div class="hero__actions reveal">
+      <a class="btn btn--solid" href="#work">See the work</a>
+      <a class="btn btn--ghost" href="#contact">Start a project</a>
+    </div>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section id="work" class="section">
+    <div class="section__head reveal">
+      <p class="eyebrow">Selected work</p>
+      <h2>Two projects, one throughline</h2>
+    </div>
+
+    <!-- ---- Project 01 ---- -->
+    <article class="project reveal">
+      <div class="project__meta">
+        <span class="project__num">01</span>
+        <h3>Cousins Beach</h3>
+        <p class="project__role">Event collateral · Three directions</p>
+        <p class="project__body">
+          A fortieth-birthday weekend on Lake Nagawicka needed a drink menu. Two
+          cocktails, one date, one location — the entire brief.
+        </p>
+        <p class="project__body">
+          Rather than pick a look and defend it, I built three complete worlds from
+          the same words and let the hosts choose the one that felt like their summer.
+        </p>
+        <ul class="project__facts">
+          <li><span>Client</span> Private event, Delafield WI</li>
+          <li><span>Deliverables</span> Menu, signage, day-of print</li>
+          <li><span>Scope</span> Concept → art direction → print-ready</li>
+        </ul>
+      </div>
+
+      <div class="project__plates">
+        <figure class="plate plate--tall">
+          <img src="/assets/work/cousins-cyanotype.jpg" alt="Navy cyanotype-style cocktail menu with botanical line art, gold rules and classical numerals" loading="lazy" width="1200" height="1500" />
+          <figcaption><strong>Direction I</strong> — Cyanotype. Botanical line art, gold hairlines, Roman numerals. Formal, still, a little nautical.</figcaption>
+        </figure>
+        <figure class="plate plate--tall">
+          <img src="/assets/work/cousins-postcard.jpg" alt="Sunset postcard cocktail menu with hand lettering, a sailboat, a postmark and a lobster stamp" loading="lazy" width="1200" height="1500" />
+          <figcaption><strong>Direction II</strong> — Postcard. Sunset gradient, hand lettering, a real postmark and a lobster stamp. Warm and loose.</figcaption>
+        </figure>
+      </div>
+      <p class="project__note">
+        Same two cocktails. Same date. Two unrelated visual worlds — plus a third in
+        the house pink below. Range is the point.
+      </p>
+    </article>
+
+    <!-- ---- Project 02 ---- -->
+    <article class="project project--alt reveal">
+      <div class="project__meta">
+        <span class="project__num">02</span>
+        <h3>Peyton Pours</h3>
+        <p class="project__role">Brand identity · Full system</p>
+        <p class="project__body">
+          My own bartending service, built end to end: mark, wordmark, colour system,
+          print collateral and a one-page site.
+        </p>
+        <p class="project__body">
+          The martini mark is drawn as vector from scratch — cool grey glass, warm pink
+          pour, a lemon twist as the one note of yellow that keeps it from going sweet.
+        </p>
+        <ul class="project__facts">
+          <li><span>Type</span> Cormorant Garamond · Work Sans</li>
+          <li><span>Colour</span> Documented in oklch with defined roles</li>
+          <li><span>Print</span> 300 DPI, bleed and safe-area spec'd</li>
+        </ul>
+      </div>
+
+      <div class="project__plates">
+        <figure class="plate plate--lockup">
+          <img src="/assets/work/pours-lockup.svg" alt="Peyton Pours logo lockup: martini glass mark beside the wordmark and tagline" loading="lazy" />
+          <figcaption><strong>Primary lockup</strong> — mark, wordmark and tagline, built as scalable vector.</figcaption>
+        </figure>
+        <div class="plate-row">
+          <figure class="plate">
+            <img src="/assets/work/card-light.png" alt="Cream business card front with martini mark and Peyton Pours wordmark" loading="lazy" width="1125" height="675" />
+          </figure>
+          <figure class="plate">
+            <img src="/assets/work/card-dark.png" alt="Charcoal business card front with martini mark and Peyton Pours wordmark" loading="lazy" width="1125" height="675" />
+          </figure>
+        </div>
+        <p class="plate-row__cap">Business cards, light and dark — built to 3.75 × 2.25″ for a 3.5 × 2″ trim with full bleed.</p>
+        <figure class="plate plate--tall">
+          <img src="/assets/work/bar-sign.png" alt="Framed bar sign with the martini mark, Peyton Pours wordmark and the line Poured to Perfection" loading="lazy" width="960" height="1200" />
+          <figcaption><strong>Direction III</strong> — the house pink. An 8 × 10 bar sign, sized to read across a room in low light.</figcaption>
+        </figure>
+      </div>
+    </article>
+  </section>
+
+  <!-- ============ APPROACH ============ -->
+  <section id="approach" class="section section--tint">
+    <div class="section__head reveal">
+      <p class="eyebrow">Approach</p>
+      <h2>I have worked the bar I am designing for</h2>
+    </div>
+    <div class="approach reveal">
+      <p class="approach__lead">
+        Most event stationery is designed by someone who has never stood behind the
+        bar at nine o'clock at night. It shows.
+      </p>
+      <div class="approach__grid">
+        <div class="approach__item">
+          <span class="approach__glyph" aria-hidden="true">✦</span>
+          <h3>Built for the room</h3>
+          <p>
+            A bar sign has to read from six feet away, in low light, by someone holding
+            a drink in one hand. That constraint drives the type size before anything
+            pretty happens.
+          </p>
+        </div>
+        <div class="approach__item">
+          <span class="approach__glyph" aria-hidden="true">✧</span>
+          <h3>Options, not opinions</h3>
+          <p>
+            You see real directions, not one comp and a hard sell. Choosing between
+            finished worlds beats describing a feeling you can't quite name.
+          </p>
+        </div>
+        <div class="approach__item">
+          <span class="approach__glyph" aria-hidden="true">✶</span>
+          <h3>Files that actually print</h3>
+          <p>
+            Correct bleed, safe margins, real resolution, and a written spec for the
+            printer. No surprises at the counter the week of the event.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section">
+    <div class="section__head reveal">
+      <p class="eyebrow">Services</p>
+      <h2>What I make</h2>
+    </div>
+    <div class="cards reveal">
+      <div class="card">
+        <h3>Event collateral</h3>
+        <p class="card__desc">The pieces your guests actually hold and read.</p>
+        <ul>
+          <li>Custom cocktail &amp; bar menus</li>
+          <li>Bar signage and welcome boards</li>
+          <li>Seating charts, table numbers</li>
+          <li>Day-of stationery</li>
+        </ul>
+      </div>
+      <div class="card card--feature">
+        <h3>Brand identity</h3>
+        <p class="card__desc">A whole system, not just a logo file.</p>
+        <ul>
+          <li>Logo, mark and lockups in vector</li>
+          <li>Colour and type system, documented</li>
+          <li>Business cards and print collateral</li>
+          <li>Social avatars and profile art</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Print production</h3>
+        <p class="card__desc">Getting it made without the drama.</p>
+        <ul>
+          <li>Press-ready files with bleed</li>
+          <li>Vendor specs and stock guidance</li>
+          <li>Proof review before you commit</li>
+          <li>Sized for the space it lives in</li>
+        </ul>
+      </div>
+    </div>
+    <p class="services__note reveal">
+      Most event packages land between a single menu and a full day-of suite. Tell me
+      the event and I'll quote the whole thing up front — no hourly surprises.
+    </p>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section section--contact">
+    <div class="contact reveal">
+      <p class="eyebrow">Contact</p>
+      <h2>Tell me about your event</h2>
+      <p class="contact__lede">
+        Wedding, milestone birthday, or a party that deserves better than a chalkboard.
+        Send the date and what you're picturing — I'll come back with directions.
+      </p>
+      <a class="contact__email" href="mailto:peytonpours@gmail.com?subject=Design%20project%20enquiry">peytonpours@gmail.com</a>
+      <p class="contact__meta">Lake Country, Wisconsin · Available for freelance</p>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>Peyton Ropas — graphic design &amp; event collateral</p>
+  <p class="footer__sub">Also pouring at <a href="https://peytonpours.com">Peyton Pours</a></p>
+</footer>
+
+<script src="/design/script.js"></script>
+</body>
+</html>
