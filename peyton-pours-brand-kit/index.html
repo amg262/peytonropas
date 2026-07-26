@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Peyton Pours — Brand Identity</title>
+<link rel="icon" href="logo/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Work+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:oklch(96% 0.01 60);
+    --card:oklch(99% 0.006 60);
+    --charcoal:oklch(30% 0.012 265);
+    --pink:oklch(53% 0.19 8);
+    --pink-deep:oklch(44% 0.2 8);
+    --blush:oklch(93% 0.045 18);
+    --rose:oklch(72% 0.1 20);
+    --lemon:oklch(86% 0.15 95);
+    --muted:oklch(50% 0.05 20);
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--cream);color:var(--charcoal);font-family:'Work Sans',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+  a{color:var(--pink);text-decoration:none}
+  a:hover{color:var(--pink-deep);text-decoration:underline}
+  .wrap{max-width:1040px;margin:0 auto;padding:0 32px}
+  header{padding:96px 0 72px;text-align:center}
+  header .mark{width:104px;height:auto;display:block;margin:0 auto 22px}
+  h1{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:clamp(48px,7vw,84px);margin:0;line-height:1}
+  .rule{width:180px;height:2px;background:var(--pink);margin:16px auto 12px}
+  .tag{font-size:12px;letter-spacing:0.2em;text-transform:uppercase;color:var(--muted)}
+  .lede{max-width:600px;margin:28px auto 0;font-size:17px;line-height:1.7;color:var(--muted);text-wrap:pretty}
+  section{padding:56px 0;border-top:1px solid oklch(88% 0.02 40)}
+  h2{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;font-size:34px;margin:0 0 6px}
+  .kicker{font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--pink);margin:0 0 26px}
+  .grid{display:grid;gap:24px}
+  .cols-3{grid-template-columns:repeat(auto-fit,minmax(240px,1fr))}
+  .cols-2{grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+  .tile{background:var(--card);border-radius:6px;padding:32px;display:flex;flex-direction:column;align-items:center;gap:16px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .tile img{max-width:100%;height:auto;display:block}
+  .cap{font-size:11px;letter-spacing:0.14em;text-transform:uppercase;color:var(--muted)}
+  .sw{border-radius:6px;overflow:hidden;background:var(--card);box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .sw .chip{height:104px}
+  .sw .meta{padding:14px 16px}
+  .sw .name{font-size:13px;font-weight:600}
+  .sw .val{font-size:11px;color:var(--muted);font-family:ui-monospace,Menlo,monospace;margin-top:4px;word-break:break-all}
+  .type-row{background:var(--card);border-radius:6px;padding:32px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .type-row + .type-row{margin-top:20px}
+  .specimen-serif{font-family:'Cormorant Garamond',Georgia,serif;font-size:52px;line-height:1.05;margin:8px 0 0}
+  .specimen-sans{font-size:20px;line-height:1.6;margin:8px 0 0;font-weight:400}
+  .shot{background:var(--card);border-radius:6px;padding:20px;box-shadow:0 1px 3px rgba(0,0,0,.05)}
+  .shot img{width:100%;height:auto;display:block;border-radius:3px}
+  ul.dl{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+  ul.dl li{font-size:14.5px;line-height:1.6;color:var(--muted)}
+  ul.dl b{color:var(--charcoal);font-weight:600}
+  footer{padding:64px 0 88px;text-align:center;border-top:1px solid oklch(88% 0.02 40);font-size:13px;color:var(--muted)}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="wrap">
+    <img class="mark" src="logo/martini-mark.svg" alt="Peyton Pours martini mark">
+    <h1>Peyton Pours</h1>
+    <div class="rule"></div>
+    <div class="tag">White-Glove Bartending · Private Parties</div>
+    <p class="lede">A complete identity for a private-event bartending service in Wisconsin's Lake Country — warm, feminine and detail-driven, built to feel at home at a lake-house party without losing polish.</p>
+  </div>
+</header>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Logo suite</p>
+    <h2>The mark</h2>
+    <div class="grid cols-3" style="margin-top:26px">
+      <div class="tile">
+        <img src="logo/martini-mark.svg" alt="Primary martini mark" style="max-height:190px">
+        <div class="cap">Primary mark</div>
+      </div>
+      <div class="tile">
+        <img src="logo/icon-badge.svg" alt="Icon badge" style="max-height:190px">
+        <div class="cap">Icon / avatar badge</div>
+      </div>
+      <div class="tile" style="justify-content:center">
+        <img src="logo/logo-lockup.svg" alt="Full logo lockup">
+        <div class="cap">Full lockup</div>
+      </div>
+    </div>
+    <p style="margin:24px 0 0;font-size:14.5px;line-height:1.7;color:var(--muted);max-width:620px;text-wrap:pretty">A cool grey glass holds a warm pink pour with a lemon twist — the one deliberate note of contrast in an otherwise pink-on-pink palette. Highlights, bubbles and a back rim keep it dimensional without turning illustrative.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Palette</p>
+    <h2>Warm pink, cream, charcoal</h2>
+    <div class="grid cols-3" style="margin-top:26px">
+      <div class="sw"><div class="chip" style="background:oklch(96% 0.01 60)"></div><div class="meta"><div class="name">Soft Cream</div><div class="val">oklch(96% 0.01 60)</div></div></div>
+      <div class="sw"><div class="chip" style="background:oklch(93% 0.045 18)"></div><div class="meta"><div class="name">Blush</div><div class="val">oklch(93% 0.045 18)</div></div></div>
+      <div class="sw"><div class="chip" style="background:oklch(72% 0.1 20)"></div><div class="meta"><div class="name">Rose</div><div class="val">oklch(72% 0.1 20)</div></div></div>
+      <div class="sw"><div class="chip" style="background:oklch(53% 0.19 8)"></div><div class="meta"><div class="name">Signature Pink</div><div class="val">oklch(53% 0.19 8)</div></div></div>
+      <div class="sw"><div class="chip" style="background:oklch(86% 0.15 95)"></div><div class="meta"><div class="name">Lemon Yellow</div><div class="val">oklch(86% 0.15 95)</div></div></div>
+      <div class="sw"><div class="chip" style="background:oklch(30% 0.012 265)"></div><div class="meta"><div class="name">Charcoal</div><div class="val">oklch(30% 0.012 265)</div></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Typography</p>
+    <h2>Cormorant Garamond &amp; Work Sans</h2>
+    <div style="margin-top:26px">
+      <div class="type-row">
+        <div class="cap">Display — Cormorant Garamond, upright</div>
+        <p class="specimen-serif">Poured to Perfection</p>
+      </div>
+      <div class="type-row">
+        <div class="cap">Body &amp; UI — Work Sans</div>
+        <p class="specimen-sans">Thoughtful, detail-driven bar service for private parties, showers, and lake house gatherings.</p>
+        <p style="font-size:11px;letter-spacing:0.2em;text-transform:uppercase;color:var(--pink);margin:18px 0 0">White-Glove Bartending · Private Parties</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Collateral</p>
+    <h2>Business cards</h2>
+    <div class="grid cols-2" style="margin-top:26px">
+      <div class="shot"><img src="business-cards/light-front.png" alt="Light card front"></div>
+      <div class="shot"><img src="business-cards/light-back.png" alt="Light card back"></div>
+      <div class="shot"><img src="business-cards/dark-front.png" alt="Dark card front"></div>
+      <div class="shot"><img src="business-cards/dark-back.png" alt="Dark card back"></div>
+    </div>
+    <p style="margin:20px 0 0;font-size:13px;color:var(--muted)">Two themes — cream front with a pink back, and charcoal front with a blush back — printed at 300 DPI with bleed.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Collateral</p>
+    <h2>Bar sign</h2>
+    <div class="shot" style="max-width:520px;margin-top:26px"><img src="bar-sign/bar-sign-8x10.png" alt="8x10 bar sign"></div>
+    <p style="margin:20px 0 0;font-size:13px;color:var(--muted)">An 8×10 framed sign for the bar at events — promotion that reads as decor.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Digital</p>
+    <h2>Website</h2>
+    <p style="margin:0 0 22px;font-size:14.5px;line-height:1.7;color:var(--muted);max-width:620px;text-wrap:pretty">A single page whose only job is to collect event inquiries: the mark, one line of positioning, and a short form. Live at <a href="https://peytonpours.com">peytonpours.com</a>.</p>
+    <div class="shot"><iframe src="website/index.html" style="width:100%;height:760px;border:0;border-radius:3px" title="Peyton Pours website"></iframe></div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <p class="kicker">Files in this kit</p>
+    <h2>What's included</h2>
+    <ul class="dl" style="margin-top:22px">
+      <li><b>logo/</b> — martini mark, icon badge, full lockup and favicon as SVG (infinitely scalable) plus PNG fallbacks.</li>
+      <li><b>business-cards/</b> — light and dark, front and back, 300 DPI with bleed (3.75 × 2.25 in).</li>
+      <li><b>bar-sign/</b> — the 8 × 10 framed bar sign.</li>
+      <li><b>website/</b> — the deployable one-page site.</li>
+      <li><b>brand-tokens.md</b> — every color, font and spacing value in text form.</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">Peyton Pours · Lake Country, Wisconsin · <a href="https://peytonpours.com">peytonpours.com</a></div>
+</footer>
+
+</body>
+</html>
