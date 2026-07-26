@@ -1,26 +1,45 @@
-# peytonropas
+# peytonropas.com
 
-A small static site for Peyton. No build step — plain HTML, CSS, and one JS file.
+Portfolio site for Peyton Ropas — graphic design and event collateral.
+
+Static: plain HTML, CSS and one JS file. No build step, no dependencies.
 
 ## Local preview
 
 ```bash
-python3 -m http.server 3000
+npx -y serve -l 3111 .
 ```
 
-Then open http://localhost:3000
+Then open http://localhost:3111
 
-## Adding a photo
+## Layout
 
-The hero has an optional portrait slot. To use it:
+```
+index.html              the site
+styles.css              all styling
+script.js               scroll reveal + sticky-bar hairline
+assets/
+  favicon.svg
+  work/                 portfolio imagery (web-optimised copies)
+peyton-pours-brand-kit/ the full Peyton Pours brand package (source of truth)
+print-nophone/          press-ready business cards
+FREELANCE-STRATEGY.md   positioning and promotion plan
+```
 
-1. Save the image (one she's fine with being on a public page) to `assets/peyton.jpg`
-2. In `index.html`, remove the `hidden` attribute from `<figure class="portrait" hidden>`
+## Editing
 
-## Editing the compliments
+- **Projects** — each is an `<article class="project">` in `index.html`. Copy one to add a third.
+- **Services** — the three `.card` blocks under `#services`.
+- **Contact** — email lives in the `.contact__email` link and the `#contact` section.
 
-They live in the `lines` array at the top of `script.js`. Add or swap freely.
+## Images
+
+`assets/work/` holds web-sized copies. The originals stay in
+`peyton-pours-brand-kit/` and at the repo root. When replacing a portfolio
+image, keep the long edge around 1500px and export JPEG for anything with
+gradients — the two Cousins Beach menus drop from ~2.8 MB to ~250 KB that way
+with no visible loss.
 
 ## Deploy
 
-Static site, no framework. Vercel serves the repo root as-is.
+Vercel serves the repo root as-is. No framework, no build command.
